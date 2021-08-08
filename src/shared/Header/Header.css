@@ -1,0 +1,14 @@
+.logo {
+  text-align: center;
+  font-size: 37px;
+  color: #0b1aa3;
+}
+
+.fade-logo-appear {
+  transform: translateX(-100%);
+}
+
+.fade-logo-appear-active {
+  transform: translateX(0);
+  transition: 500ms;
+}

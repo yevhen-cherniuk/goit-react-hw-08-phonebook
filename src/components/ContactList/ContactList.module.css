@@ -1,0 +1,30 @@
+.list {
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: start;
+}
+.item-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.item-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 500ms ease-in;
+}
+.item-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 500ms ease-in;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+}
